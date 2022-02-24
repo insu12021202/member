@@ -10,7 +10,7 @@ const LeftContentContainer = styled.div`
 `;
 
 const ProfileImg = styled.img`
-  margin-top: -80px;
+  margin-top: -40px;
   margin-bottom: 30px;
   object-fit: cover;
   width: 300px;

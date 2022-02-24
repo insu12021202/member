@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { user } from "../../../Common/Style/testData/testdata";
+import { user } from "../../../Common/testData/testdata";
 import { Button } from "../../Atoms/Button";
 import RegisterInput from "../../Molecules/Account/RegisterInput";
 import RegisterFormWrapper from "./styles";

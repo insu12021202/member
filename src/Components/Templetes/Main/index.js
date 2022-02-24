@@ -1,4 +1,4 @@
-import { user } from "../../../Common/Style/testData/testdata";
+import { user } from "../../../Common/testData/testdata";
 import Span from "../../Atoms/Span";
 import Header from "../../Organisms/Header";
 import { Container, ContentWrapper } from "./styles";

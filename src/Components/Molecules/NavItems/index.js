@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import { user } from "../../../Common/Style/testData/testdata";
+import { user } from "../../../Common/testData/testdata";
 import StyledLink from "../../Atoms/Link/styles";
 import { NavItemsWrapper } from "./styles";
 

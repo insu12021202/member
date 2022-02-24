@@ -3,7 +3,7 @@ import styled from "styled-components";
 const MyPostContainer = styled.div`
   padding: 15px;
   width: 100%;
-  min-height: 100%;
+  height: 420px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 10px;
   overflow: auto;
   color: #707070;

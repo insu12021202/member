@@ -1,19 +1,10 @@
-import { user } from "../../../Common/Style/testData/testdata";
-import { Button } from "../../Atoms/Button";
-import Span from "../../Atoms/Span";
+import { user } from "../../../Common/testData/testdata";
 import Header from "../../Organisms/Header";
-import { Container, ContentWrapper } from "../Main/styles";
-import {
-  MyPageNavItem,
-  MyPageSpan,
-  ProfileContainer,
-  ProfileContentWrapper,
-} from "./styles";
+import { Container } from "../Main/styles";
+import { MyPageSpan, ProfileContainer, ProfileContentWrapper } from "./styles";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./style.css";
-import MyInfo from "../../Organisms/MyInfo";
-import MyPost from "../../Organisms/MyPost";
 import ProfileLeftContent from "../../Organisms/ProfileLeftContent";
 import ProfileRightContent from "../../Organisms/ProfileRightContent";
 

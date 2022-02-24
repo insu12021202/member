@@ -2,8 +2,9 @@ import styled from "styled-components";
 import Span from "../../Atoms/Span";
 
 const ProfileContentWrapper = styled.div`
-  width: 1400px;
-  height: 800px;
+  width: 1300px;
+  height: 700px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -11,7 +11,6 @@ const Container = styled.div`
 
 const ContentWrapper = styled.div`
   width: 100%;
-  height: 92%;
   display: flex;
   justify-content: center;
   align-items: center;
