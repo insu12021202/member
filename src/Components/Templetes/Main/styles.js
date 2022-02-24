@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@ const Container = styled.div`
 
 const ContentWrapper = styled.div`
   width: 100%;
-  height: 95%;
+  height: 92%;
   display: flex;
   justify-content: center;
   align-items: center;

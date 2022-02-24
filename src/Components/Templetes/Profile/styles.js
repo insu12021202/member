@@ -19,7 +19,7 @@ const ProfileContainer = styled.div`
   align-items: center;
   background-color: #f5f5f5;
   width: 100%;
-  height: 980px;
+  height: 92%;
 `;
 
 const MyPageSpan = styled.span`
@@ -28,4 +28,14 @@ const MyPageSpan = styled.span`
   margin: 30px;
 `;
 
-export { ProfileContentWrapper, ProfileContainer, MyPageSpan };
+const MyPageNavItem = styled.span`
+  font-size: 20px;
+  margin-right: 100px;
+  cursor: pointer;
+  color: ${(props) => (props.active === true ? "#707070" : "#dfdfdf")};
+  &:hover {
+    color: #707070;
+  }
+`;
+
+export { ProfileContentWrapper, ProfileContainer, MyPageSpan, MyPageNavItem };

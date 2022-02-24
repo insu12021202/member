@@ -1,0 +1,31 @@
+{
+  "res": [
+    {
+      "idx": 1,
+      "board": "free",
+      "title": "MyPost 테스트용 제목",
+      "comment": "내가 단 댓글 내용",
+      "date": "2022-01-06",
+      "author_id": 1,
+      "author_nickname": "여인수"
+    },
+    {
+      "idx": 1,
+      "board": "free",
+      "title": "MyPost 테스트용 제목",
+      "comment": "내가 단 댓글 내용",
+      "date": "2022-01-06",
+      "author_id": 1,
+      "author_nickname": "여인수"
+    },
+    {
+      "idx": 1,
+      "board": "free",
+      "title": "MyPost 테스트용 제목",
+      "comment": "내가 단 댓글 내용",
+      "date": "2022-01-06",
+      "author_id": 1,
+      "author_nickname": "여인수"
+    }
+  ]
+}

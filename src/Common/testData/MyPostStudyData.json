@@ -1,0 +1,64 @@
+{
+  "res": [
+    {
+      "idx": 1,
+      "title": "내가 게시하고 진행 중이지 않은 스터디",
+      "date": "2022-01-06",
+      "authorId": 1,
+      "authorNickname": "여인수",
+      "headCount": 2,
+      "maxCount": 5,
+      "join": false,
+      "InProgress": false,
+      "organizerId": 2
+    },
+    {
+      "idx": 2,
+      "title": "내가 게시한 스터디",
+      "date": "2022-01-06",
+      "authorId": 1,
+      "authorNickname": "여인수",
+      "headCount": 3,
+      "maxCount": 5,
+      "join": false,
+      "InProgress": false,
+      "organizerId": 1
+    },
+    {
+      "idx": 3,
+      "title": "내가 게시하고 진행 중인 스터디",
+      "date": "2022-01-06",
+      "authorId": 1,
+      "authorNickname": "여인수",
+      "headCount": 2,
+      "maxCount": 5,
+      "join": false,
+      "InProgress": true,
+      "organizerId": 1
+    },
+    {
+      "idx": 4,
+      "title": "내가 신청한 스터디(진행 중 X)",
+      "date": "2022-01-06",
+      "authorId": 1,
+      "authorNickname": "여인수",
+      "headCount": 2,
+      "maxCount": 5,
+      "join": true,
+      "InProgress": false,
+      "organizerId": 4
+    },
+    {
+      "idx": 5,
+      "title": "내가 신청하고 진행 중인 스터디",
+      "date": "2022-01-06",
+      "authorId": 1,
+      "authorNickname": "여인수",
+      "headCount": 3,
+      "maxCount": 5,
+      "join": true,
+      "InProgress": true,
+      "organizerId": 4
+    }
+  ]
+}

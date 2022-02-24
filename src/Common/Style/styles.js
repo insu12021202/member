@@ -5,9 +5,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
-    width: 100vw;
-    height: 100vh;
+  html, body {
+    width: 100%;
+    height: 100%;
     font-family: 'Noto Sans KR', sans-serif;
     line-height: 1.5;
     margin: 0;
@@ -31,6 +31,10 @@ const GlobalStyle = createGlobalStyle`
       text-decoration: none;
     }
   }
+
+#root {
+  height: 100%;
+}
 
   ul, li {
     margin: 0;

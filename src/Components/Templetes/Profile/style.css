@@ -1,40 +1,32 @@
-.ProfileLeftContent {
-  width: 30%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.ProfileRightContent {
-  width: 70%;
-  height: 100%;
-  border: 1px solid green;
-}
-
-.ProfileImg {
-  margin-top: -80px;
-  margin-bottom: 30px;
-}
-
-.ProfileIntroContent {
-  width: 300px;
-  height: 120px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.ProfileIntroContent span:first-child {
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 10px;
+.ProfileContentDiv span {
+  font-size: 18px;
   color: #707070;
 }
-.ProfileIntroContent span:not(:first-child) {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: #707070;
+
+.ProfileContentDiv > .data {
+  margin-left: 20px;
+}
+
+.ProfileContentDiv > .ProfileStackContent {
+  margin: 0;
+  margin-left: 20px;
+  width: 50%;
+}
+
+.ProfileContentDiv > .ProfileStackContent > .Stack1,
+.Stack2,
+.Stack3 {
+  color: #f3b707;
+}
+
+/* 여기부터 MyPost */
+
+.MyPostContent {
+  padding: 10px 5px 10px 5px;
+}
+
+.CommentText {
+  color: #5a5a5a;
+  margin-top: 10px;
+  margin-left: 5px;
 }
